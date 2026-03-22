@@ -16,7 +16,7 @@ body {
 
 /* Base Form Style */
 .form {
-    background: linear-gradient(#000000, #c0c0c0);
+    background: linear-gradient(#000000, #ce0000);
     width: 50%;
     height: 70%;
     display: flex;
@@ -66,7 +66,7 @@ body {
 
 .box .items {
     width: 40%; height: 40%;
-    background-color: #000000;
+    background-color: #000000e1;
     display: flex;
     justify-content: center;
     align-items: center;
