@@ -9,6 +9,8 @@ let Email = document.getElementById("Email");
 let psw1 = document.getElementById("psw1");
 let psw2 = document.getElementById("psw2");
 
+let box = document.querySelector(".box")
+
 btnY.addEventListener('click', function () {
     let val1 = Email.value;
     let val2 = psw1.value;
@@ -32,10 +34,10 @@ btnY.addEventListener('click', function () {
     } else if(val2 !== val3) {
          Nap2.innerText = "โปรดใส่รหัสผ่านให้ตรงกัน!";
     } else {
-        alert(`สวัสดีคุณ ${userName}`);
         NaE.innerText = "";
         Nap1.innerText = "";
         Nap2.innerText = "";
+        box.classList.add('addbox')
     };
 });
 
