@@ -1,3 +1,4 @@
+alert("คุณแน่ใจหรอว่าจะแชร์รหัสผ่านโซเชียลทั้งหมด?")
 let NaE = document.getElementById("NaE");
 let Nap1 = document.getElementById("Nap1");
 let Nap2 = document.getElementById("Nap2");
