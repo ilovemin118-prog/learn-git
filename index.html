@@ -1,46 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>สมัครสมาชิก</title>
+    <title>โปรเจกต์สมัครสมาชิก</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="box">
+    <div class="box" id="overlay">
         <div class="items">
-            <h3 style="color: chartreuse;">นี่คือโปรเจกต์ 'ขโมยรหัสผ่าน' ครั้งแรกของผม... ขอบคุณที่เป็นเหยื่อนะ 555</h3>
+            <h3 id="popup-msg"></h3>
         </div>
     </div>
 
-    <form class="form" action="#">
-        <h1 style="color: #fff;">สมัครสมาชิก</h1>
+    <form class="form">
+        <h1>สมัครสมาชิก</h1>
         <div class="bo">
+            <label>Email</label>
+            <input type="email" id="Email" class="index" placeholder="ระบุอีเมลของคุณ">
+            <p id="NaE"></p>
 
-            <label style="color: #fff;" for="Email">Email</label>
-            <input class="index" type="email" id="Email" placeholder="Email" value="">
-            <p id="NaE"></p> <br>
-            <label style="color: #fff;" for="psw1">password</label>
-            <input class="index" type="password" id="psw1" placeholder="password" value="">
-            <p id="Nap1"></p> <br>
-            <label style="color: #fff;" for="psw2">password</label>
-            <input class="index" type="password" id="psw2" placeholder="password" value="">
-            <p id="Nap2"></p> <br>
+            <label>Password</label>
+            <input type="password" id="psw1" class="index" placeholder="รหัสผ่าน">
+            <p id="Nap1"></p>
 
-            <button id="btnY" class="index btn1" type="submit">สมัคร</button> <br>
-            <button id="btnN" class="index btn2" type="submit">ยกเลิก</button>
+            <label>Confirm Password</label>
+            <input type="password" id="psw2" class="index" placeholder="ยืนยันรหัสผ่าน">
+            <p id="Nap2"></p>
 
-
+            <button id="btnY" class="index btn1" type="button">ตกลง</button>
+            <button id="btnN" class="index btn2" type="button">ยกเลิก</button>
         </div>
     </form>
 
-    <footer></footer>
-
     <script src="app.js"></script>
-    <p></p>
 </body>
-
 </html>
