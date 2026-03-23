@@ -24,7 +24,7 @@ body {
     font-size: 1rem;
 }
 
-.bo p { color: #5aff99; font-size: 0.85rem; height: 1.2rem; margin-bottom: 5px; }
+.bo p { color: #ff7300; font-size: 0.85rem; height: 1.2rem; margin-bottom: 5px; }
 
 .btn1 { background: #2933c2; color: white; cursor: pointer; transition: 0.3s; margin-top: 10px; }
 .btn2 { background: #dd3a3a; color: white; cursor: pointer; transition: 0.3s; }
